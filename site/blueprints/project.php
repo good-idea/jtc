@@ -1,11 +1,13 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-# default blueprint
-
-title: Page
-pages: true
-  template: Year
-files: false
+title: Project
+pages: false
+files: true
+  sortable: true
+  fields:
+    caption:
+      label: Caption
+      type: textarea
 fields:
   title: 
     label: Title

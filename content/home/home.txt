@@ -1,1 +1,5 @@
 Title: Home
+
+----
+
+Text: <?php foreach ($pages->visible() as page) { echo "$page-title(), "} ?>

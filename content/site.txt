@@ -1,5 +1,9 @@
-Title: Site
+Title: Joseph Thomas Contemporary
 ----
-Description:
+Author: Joseph Thomas
 ----
-Keywords:
+Description: Joseph Thomas
+----
+Keywords: joseph thomas, contemporary, history, artist, portfolio
+----
+Copyright: © 2009-(date: Year) (link: http://www.josephthomascontemporary.com text: Joseph Thomas)
