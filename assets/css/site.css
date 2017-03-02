@@ -1,0 +1,90 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+/* TYPOGRAPHY */
+
+.c a:hover {background-color:pink;}
+
+p {margin:.5em 0em;}
+p.caption {font-style:italic; margin:0 0 1rem 0;}
+
+blockquote {
+  margin-left: 2rem;
+  padding: 1rem;
+  color: rgb(100, 183, 236);
+  background-color: rgb(247, 247, 247);
+}
+
+/* LAYOUT */
+
+#project .c {width: 600px;}
+.c { margin:5px 10px 40px 10px; width:350px; display:inline-block;}
+.c .c { margin:5px 10px 0 10px; float:left; width:auto;}
+#footer .c {width: 160px;}
+
+#main h2 {display:inline;}
+
+#globe {position: relative;}
+#globe .globe {display: none; position:absolute; top:25px; left: 0px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+#globe .globeButton {cursor:pointer;}
+
+#project .title {font-style:italic;}
+
+img {margin:15px 0px; max-height:95vh;}
+
+img {
+  max-width: 100%;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+#project { width:100%; box-sizing:border-box;}
+#project .c {width: auto;}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9 /* ie8 */
+}
+
+}

@@ -1,4 +1,4 @@
-<?php if(!defined('KIRBY')) exit ?>
+s<?php if(!defined('KIRBY')) exit ?>
 
 # default blueprint
 
