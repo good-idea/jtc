@@ -53,6 +53,18 @@ blockquote {
   background-color: rgb(247, 247, 247);
 }
 
+p a {
+  border-bottom: 1px solid pink;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
 /* LAYOUT */
 
 #project .c {width: 600px;}

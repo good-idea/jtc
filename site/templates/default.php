@@ -6,16 +6,17 @@
 	<?php if ($page->children()->count() == 0): ?>
 		<div class="c"><h2 style="text-decoration:line-through"><?php echo kirbytext($page->title()) ?></h2></div>
 	<?php else: ?>
-	<div class="c"><h2><?php echo kirbytext($page->title()) ?></h2>
-	<?php foreach ($page->children()->visible() as $child): ?>
+	<div class="c">
+		<h2><?php echo kirbytext($page->title()) ?></h2>
+		<?php foreach ($page->children()->visible() as $child): ?>
 		<div class="c">
 			<a href="<?php echo $child->url() ?>"><h2 class="title"><?php echo $child->title() ?></a></h2>
 		</div>
-	<?php endforeach; ?>
-	<?php endif ?>
+		<?php endforeach; ?>
 	</div>
-
+	<?php endif ?>
 <?php endforeach; ?>
+</div>
 <div id="footer">
 	<?php foreach ($pages->invisible() as $page): ?>
 		<?php if ($page->title() != "Error" && $page->title() != "Home" && $page->title() != "sitemap"): ?>
