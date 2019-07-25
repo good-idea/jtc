@@ -14,8 +14,8 @@
 	    <?php endforeach; ?>
 	  </div>
 	<?php endif ?>
-
 <?php endforeach; ?>
+</div>
 <div id="footer">
 	<?php foreach ($pages->invisible() as $page): ?>
 		<?php if ($page->title() != "Error" && $page->title() != "Home" && $page->title() != "sitemap"): ?>

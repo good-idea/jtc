@@ -31,3 +31,5 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs
 
 */
+
+c::set('panel.install', true);
