@@ -26,7 +26,7 @@
 	<div id= "globe" class="c">
 		<h2 class="globeButton">&#9680;</h2>
 		<div class="globe">
-			<script type="text/javascript" src="http://jk.revolvermaps.com/2/1.js?i=ak3ddcuuskt&amp;s=250&amp;m=0&amp;v=true&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
+      <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=ak3ddcuuskt&amp;m=2&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;hi=10" async="async"></script>
 		</div>
 	</div>
 

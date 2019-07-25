@@ -76,10 +76,14 @@ strong {
 
 #globe {position: relative;}
 #globe .globe {display: none; position:absolute; top:25px; left: 0px;
+  background-color: #767676;
+  width: 250px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
 #globe .globeButton {cursor:pointer;}
+
+
 
 #project .title {font-style:italic;}
 
