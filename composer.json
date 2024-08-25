@@ -1,0 +1,14 @@
+{
+    "name": "good-idea/josephthomascontemporary.com",
+    "description": "my portfolio website",
+    "type": "project",
+    "require": {
+        "php": "7.4.33"
+    },
+    "authors": [
+        {
+            "name": "Joseph",
+            "email": "joseph@good-idea.studio"
+        }
+    ]
+}
